@@ -1,0 +1,36 @@
+.root {
+  width: 100vw;
+  height: 100vh;
+}
+.Header {
+  width: 100vw;
+  height: 100vh;
+  background-color: #20aecd;
+  margin: 0;
+  padding: 0;
+}
+#header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.header-header {
+  height: 25vh;
+  width: 100%;
+  margin: 0 0 150px 0;
+}
+.header-header h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: #ecf0f1;
+  font-size: 70px;
+  margin-left: 10px;
+}
+.header-header h5 {
+  font-family: 'Noto Serif', serif;
+  color: #ecf0f1;
+  font-size: 45px;
+  margin-left: 50px;
+}
