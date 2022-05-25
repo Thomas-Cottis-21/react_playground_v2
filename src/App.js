@@ -8,7 +8,7 @@ function App() {
   return (
     <div className = "root">
       <div className = "Header">
-        {<Header />}
+        {<Header name = 'Thomas'/>}
       </div>
     </div>
   );
