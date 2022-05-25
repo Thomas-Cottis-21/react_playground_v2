@@ -10,9 +10,6 @@ function App() {
       <div className = "Header">
         {<Header />}
       </div>
-      <div className = "MyLife">
-        {<MyLife />}
-      </div>
     </div>
   );
 }

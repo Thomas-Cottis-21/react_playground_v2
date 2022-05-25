@@ -1,0 +1,4 @@
+05-22-22
+First commit in react_playground_v2. So far I have figured a lot out about what javascript is truly capable of, but I'm truly going to find what React in specific can do.
+
+Created 2 components, Header and MyLife. Created 2 different css stylesheets to go along. 
