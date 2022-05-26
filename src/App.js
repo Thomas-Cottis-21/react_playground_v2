@@ -8,14 +8,10 @@ function App() {
   return (
     <div className = "root">
       <div className = "Header">
-        {<Header name = 'Thomas'/>}
+        {<Header name = "Thomas"/>}
       </div>
     </div>
   );
 }
 
 export default App;
-/* ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-); */
