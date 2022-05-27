@@ -36,8 +36,7 @@ export const Counter = () => {
     }
     return (
     <section id='counter'>
-        <h1>This is my to do list</h1>
-        {/* <input type="text"/> */}
+        <h1>This is my counter</h1>
         <p>Your current count is {count}</p>
         <p>Your current theme is {theme}</p>
         <div className='counterButtonGroup'>
@@ -46,7 +45,7 @@ export const Counter = () => {
             <button onClick={addTwo}>Add 2</button>
             <button onClick={addTwoOld}>Add 2 the old way</button>
             <button onClick={subtractTwo}>Subtract 2</button>
-            <button onClick={reset}>reset</button>
+            <button onClick={reset}>Reset</button>
             <button onClick={newThemeToBlue}>Make Blue</button>
         </div>
         

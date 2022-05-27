@@ -1,0 +1,49 @@
+#todo-list {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(whitesmoke, #5f5f5f);
+    align-items: center;
+    justify-content: center;
+}
+input:focus {
+    outline: none;
+}
+#todo-list h1 {
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+#todo-list input {
+    width: 15vw;
+    height: 25px;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+#todo-list button {
+    width: auto;
+    height: auto;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, whitesmoke, #c2c2c2);
+    border: none;
+    border-radius: 5px;
+}
+#todo-list button:hover {
+    background-image: linear-gradient(to bottom right, #4ac400, #c2c2c2, #c2c2c2);
+}
+#todo-list h3 {
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+#todo-list hr {
+    width: 25vw;
+    border: solid 2px whitesmoke;
+    border-radius: 2px;
+}
