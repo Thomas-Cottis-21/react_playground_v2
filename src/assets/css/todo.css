@@ -1,0 +1,36 @@
+#todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#todo h1 {
+    font-size: 40px;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+}
+#todo input {
+    width: 20vw;
+    height: 35px;
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    border: none;
+    border-bottom: 2px solid #2c8fcf;
+}
+#todo input{
+    outline: none;
+}
+#todo button {
+    width: auto;
+    height: auto;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, whitesmoke, #c2c2c2);
+    border: none;
+    border-radius: 5px;
+}
+#todo button:hover {
+    background-image: linear-gradient(to bottom right, #2c8fcf, #c2c2c2);
+}
