@@ -1,26 +1,31 @@
-#todo {
+#counter {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#todo h1 {
+#counter h1 {
     font-size: 40px;
     font-family: 'Noto Serif', serif;
     text-align: center;
 }
-#todo input {
-    width: 20vw;
+/* #counter input {
+    width: 5vw;
     height: 35px;
     font-size: 30px;
     font-family: 'Noto Serif', serif;
     border: none;
     border-bottom: 2px solid #2c8fcf;
 }
-#todo input{
+#counter input{
     outline: none;
+} */
+#counter p {
+    font-size: 16px;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
 }
-#todo button {
+#counter button {
     width: auto;
     height: auto;
     font-size: 25px;
@@ -31,6 +36,11 @@
     border: none;
     border-radius: 5px;
 }
-#todo button:hover {
+#counter button:hover {
     background-image: linear-gradient(to bottom right, #2c8fcf, #c2c2c2);
+}
+#counter .counterButtonGroup {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
 }

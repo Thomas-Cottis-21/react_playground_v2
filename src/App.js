@@ -1,10 +1,10 @@
 /* import React from 'react';
 import ReactDOM from 'react-dom'; */
 import './assets/css/Header.css';
-import './assets/css/todo.css';
+import './assets/css/counter.css';
 import { Header } from './Components/Header';
 /* import { MyLife } from './Components/MyLife'; */
-import { TodoList } from './Components/TodoList';
+import { Counter } from './Components/Counter';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         {<Header name = "Thomas"/>}
       </div>
       <div>
-        {<TodoList />}
+        {<Counter />}
       </div>
     </div>
   );
