@@ -35,8 +35,9 @@
   margin-left: 50px;
 }
 .header-header button {
-  width: 12vw;
-  height: 7vh;
+  width: auto;
+  height: auto;
+  padding: 10px;
   font-family: 'Noto Serif', serif;
   font-size: 35px;
   margin-left: 50px;
@@ -45,4 +46,12 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .header-header h3 {
+    font-size: 50px;
+  }
+  .header-header h5 {
+    font-size: 25px;
+  }
 }

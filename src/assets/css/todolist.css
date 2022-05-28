@@ -12,7 +12,7 @@ input:focus {
     font-size: 50px;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    color: whitesmoke;
+    color: #2c8fcf;
 }
 #todo-list input {
     width: 15vw;
